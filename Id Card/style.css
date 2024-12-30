@@ -1,0 +1,101 @@
+_{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color: rgb(218, 128, 198)
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width:400px;
+    height:500px;
+    border-radius:12px;
+    background-color:rgba(77, 172, 199, 0.781);
+    padding-top: 2%;
+    overflow: hidden;
+
+}
+.card .title h1{
+    font-family:Gilroy;
+    color: white;
+    font-size:2rem;
+    text-align:center;
+    padding:2%;
+}
+.card .title p{
+    font-family:Open Sans;
+    color:white;
+    text-align:center;    
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+    align-items: center;
+}
+.card .image .outer{
+    background-color:rgb(36, 7, 151) ;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .image .inner{
+    height:100px;
+    width:100px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.card .image .inner img{
+    width: 100%;
+
+}
+.card .name{
+    color: white;
+    text-align: center;
+    font-family:Gilroy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.card .details{
+    background-color: rgb(59, 133, 182);
+    height: 30%;
+    margin-top: 10%;
+    border-top-left-radius: 75px;
+    padding: 5%;
+    color: white;
+    font-family: Open Sans;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    border-top: 3px solid white;
+  
+}
+.card .details .col{
+    width:500%; 
+    
+}
+.card .details .col .img{
+    width:50%;
+}
+.card .details .col:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.card .details li{
+    margin-top: 2%;
+    font-size: 0.5 rem;
+}
+
+    
+
+
